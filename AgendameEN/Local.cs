@@ -11,7 +11,7 @@ namespace AgendameEN
         public int Id { get; set; }
         public string ?Nombre { get; set; }
         public int  IdCategoria { get; set; }
-        public int IdPropietario { get; set; } ///este de aqui seria el propietario
+        //public int IdPropietario { get; set; } ///este de aqui seria el propietario
         public string ?TelefonoLocal { get; set; }
         public string ?Horario { get; set; }
         public int TotalTrabajadores { get; set; }

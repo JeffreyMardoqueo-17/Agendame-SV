@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace AgendameEN
 {
-    internal class Genero
+    public class Genero
     {
+        public int Id { get; set; }
+        public string ?Nombre { get; set; }
     }
 }
