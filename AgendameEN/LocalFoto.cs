@@ -9,7 +9,7 @@ namespace AgendameEN
     public class LocalFoto
     {
         public int Id { get; set; }
-        public int IdLocaal { get; set; }
-        public string ?Foto { get; set; }
+        public int IdLocal { get; set; } //para saber a que local pertencern estas fotos
+        public string ?Foto  { get; set; }
     }
 }
