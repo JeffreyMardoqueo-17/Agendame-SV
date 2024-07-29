@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AgendameEN
 {
-    public class FotoPerfilUsuarios
+    public class EstadoPago
     {
-        public int Id { get; set; }
-        public int IdUsuario { get; set; }
+         public int Id  { get; set; }
+        public string ?Nombre {  get; set; }
     }
 }
