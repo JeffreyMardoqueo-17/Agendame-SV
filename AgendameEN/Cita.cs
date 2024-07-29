@@ -11,10 +11,11 @@ namespace AgendameEN
         public int Id { get; set; }
         public int ConsumidorId { get; set; }
         public int? TrabajadorId { get; set; } // de la persona que presta servicios (trabajador del local)
-        public int? LocalId { get; set; } // Id del local, si aplica
-        public int? ProveedorDeServiciosId { get; set; } // Id del proveedor de servicios independiente, si aplica
+        public int? IdLocal { get; set; } // Id del local, si aplica
+        public int? IdProveedorDeServicios{ get; set; } // Id del proveedor de servicios independiente, si aplica
         public DateTime FechaHora { get; set; }
-        public int ServicioId { get; set; }
+        public int IdServicio { get; set; }
+        
         public string? Estado { get; set; } // pendiente, confirmada, cancelada, etc.
 
         // Opcional: Lista de pagos relacionados con la cita

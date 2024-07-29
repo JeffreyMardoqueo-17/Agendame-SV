@@ -12,7 +12,7 @@ namespace AgendameEN
         public int CitaId { get; set; } // Relaciona el pago con una cita específica
         public decimal Monto { get; set; } // Monto del pago
         public DateTime FechaPago { get; set; } // Fecha en que se realizó el pago
-        public string ?MetodoPago { get; set; } // Método de pago: tarjeta, efectivo, etc.
+        public int IdMetodoPago { get; set; } // Método de pago: tarjeta, efectivo, etc.
         public int IdEstadoPago { get; set; } // Estado del pago: pendiente, completado, fallido, etc.
     }
 }
