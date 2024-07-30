@@ -13,12 +13,13 @@ namespace AgendameEN
         /// trbajador y consumidor
         /// </summary>
         public int id { get; set; }
-        public string ?Nombre { get; set; }
-        public string ?Apellido { get; set; }
+        public string? Nombre { get; set; }
+        public string? Apellido { get; set; }
         public DateTime FechaNacimiento { get; set; }
+        public int IdDireccion { get; set; }
         public int IdTipoUsuario { get; set; }
-        public string ?Telefono { get; set; }
-        public string ?Email { get; set; }
+        public string? Telefono { get; set; }
+        public string? Email { get; set; }
         public int IdGenero { get; set; }
         public int IdFotoPerfil { get; set; }
     }

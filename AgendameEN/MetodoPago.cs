@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace AgendameEN
 {
-    public class Propietario
+    public class MetodoPago
     {
         public int Id { get; set; }
-        public Usuario ? Usuario { get; set; }
-        public List<Local> ? Locales {  get; set; }
-        public int IdDireccionesPropietarios { get; set; }
+        public string? Nombre { get; set; }
     }
 }
+

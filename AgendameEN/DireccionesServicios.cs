@@ -9,8 +9,10 @@ namespace AgendameEN
     public class DireccionesServicios
     {
         public int Id { get; set; }
-        public string? Nombre { get; set; }
-        public string? Latitud { get; set; }
-        public string? Longitud { get; set; }
+        public string? Calle { get; set;}
+        public string? Ciudad { get; set;}
+        public string? Departamento { get; set;}
+        public string? Latitud { get; set;}
+        public string? Longitud { get; set;}
     }
 }

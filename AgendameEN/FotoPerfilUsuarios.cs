@@ -9,6 +9,6 @@ namespace AgendameEN
     public class FotoPerfilUsuarios
     {
         public int Id { get; set; }
-        public int IdUsuario
+        public int IdUsuario { get; set; }
     }
 }
