@@ -1,0 +1,2 @@
+#ignorare el archivo de la parte del query de la base de datos
+/AgendameDAL/AgendameDAL/DataBase/*.sql
