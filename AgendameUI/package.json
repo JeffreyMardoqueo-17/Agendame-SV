@@ -1,0 +1,16 @@
+{
+  "name": "agendameui",
+  "version": "1.0.0",
+  "description": "Project description",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./wwwroot/css/tailwind.css -o ./wwwroot/css/site.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.23",
+    "autoprefixer": "^10.4.14"
+  }
+}

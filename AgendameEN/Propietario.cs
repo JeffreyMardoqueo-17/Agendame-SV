@@ -11,6 +11,6 @@ namespace AgendameEN
         public int Id { get; set; }
         public Usuario ? Usuario { get; set; }
         public List<Local> ? Locales {  get; set; }
-        public int IdDireccionesPropietarios { get; set; }
+        // public int IdDireccionesPropietarios { get; set; }
     }
 }

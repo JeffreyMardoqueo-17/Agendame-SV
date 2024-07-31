@@ -9,10 +9,11 @@ namespace AgendameEN
     public class Servicio
     {
         public int Id { get; set; }
-        public string ?Nombre { get; set; }
-        public string ?Descripcion { get; set; }
+        public string? Nombre { get; set; }
+        public string? Descripcion { get; set; }
         public int TiempoEstimado { get; set; }
         public decimal Costo { get; set; }
         public int IdCategoria { get; set; }
+
     }
 }
