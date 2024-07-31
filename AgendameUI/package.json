@@ -4,7 +4,7 @@
   "description": "Project description",
   "main": "index.js",
   "scripts": {
-    "build:css": "npx tailwindcss -i ./wwwroot/css/tailwind.css -o ./wwwroot/css/site.css"
+    "build:css": "npx postcss wwwroot/css/app.css -o wwwroot/css/app.min.css"
   },
   "author": "",
   "license": "ISC",
