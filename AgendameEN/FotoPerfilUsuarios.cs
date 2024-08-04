@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace AgendameEN
 {
-    public class FotoPerfilUsuarios
+    public class FotoPerfil
     {
         public int Id { get; set; }
         public int IdUsuario { get; set; }
+        public string? Foto { get; set; }
     }
 }
